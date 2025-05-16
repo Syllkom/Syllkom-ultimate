@@ -116,7 +116,7 @@ This means you are free to:
 -   **Adapt** — remix, transform, and build upon the material for your personal, non-commercial portfolio.
 
 Under the following terms:
--   **Attribution** — You must give appropriate credit to Syllkom (e.g., by keeping the original copyright notice in the footer and/or code), provide a link to the original repository if applicable ([https://github.com/Syllkom/Syllkom-ultimate](https://github.com/Syllkom/Syllkom-ultimate) - please update this link to the original source), and indicate if changes were made. You may do so in any reasonable manner, but not in any way that suggests Syllkom endorses you or your use.
+-   **Attribution** — You must give appropriate credit to Syllkom (e.g., by keeping the original copyright notice in the footer and/or code), provide a link to the original repository if applicable ([https://github.com/Syllkom/Syllkom-ultimate](https://github.com/Syllkom/Syllkom-ultimate)),and indicate if changes were made. You may do so in any reasonable manner, but not in any way that suggests Syllkom endorses you or your use.
 -   **NonCommercial** — You may not use the material for commercial purposes. This includes selling this portfolio template or derivatives of it.
 -   **ShareAlike** — If you remix, transform, or build upon the material, you must distribute your contributions under the same license as the original.
 
