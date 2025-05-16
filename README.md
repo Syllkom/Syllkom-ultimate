@@ -35,9 +35,8 @@ To use this template for your own portfolio, follow these steps:
 
 1.  **Clone the repository:**
     ```bash
-    git clone [https://github.com/Syllkom/Syllkom-ultimate.git](https://github.com/Syllkom/Syllkom-ultimate.git)
+    git clone https://github.com/Syllkom/Syllkom-ultimate.git
     ```
-    (Replace `your-repo-name` with the actual name of your repository if you fork it, or download the ZIP)
 
 2.  **Navigate to the project directory:**
     ```bash
