@@ -1,0 +1,392 @@
+/* ====== SISTEMA DE TEMAS ====== */
+
+/* === TEMA NOCHE (DEFAULT) === */
+/* Este tema es el default definido en style.css y no necesita redefinirse aquí */
+
+/* === TEMA DÍA === */
+body.theme-day {
+    --background: #f0f2f5;
+    --background-alt: #e0e5ec;
+    --container-bg: #ffffff;
+    --card-bg: #ffffff;
+    --card-hover-bg: #f3f5f9;
+    
+    /* Gradientes */
+    --primary-gradient-start: #4846e3;
+    --primary-gradient-mid: #5d54ff;
+    --primary-gradient-end: #8163ff;
+    --primary-gradient: linear-gradient(135deg, var(--primary-gradient-start) 0%, var(--primary-gradient-end) 100%);
+    --secondary-gradient: linear-gradient(135deg, #e3e6f0 0%, #d8dce8 100%);
+    --glow-gradient: radial-gradient(circle at 50% 0%, rgba(94, 92, 230, 0.15), transparent 60%);
+    --glass-gradient: linear-gradient(135deg, rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.05));
+    
+    /* Botones y Elementos UI */
+    --button-bg: #e9edf5;
+    --button-border: #4341d0;
+    --button-secondary-bg: #e4e9f2;
+    --button-secondary-border: #c0c7d8;
+    
+    /* Texto */
+    --text-white: #1a1c33;
+    --text-light: #2d3042;
+    --text-gray: #4e5169;
+    --text-accent: #5550e8;
+    --text-muted: #7a8199;
+    
+    /* Elementos de UI */
+    --progress-bar-bg: #dce1ea;
+    --input-bg: #ffffff;
+    --input-border: #c6cfe0;
+    --input-focus-border: #5251e3;
+}
+
+.theme-day .site-header {
+    background-color: rgba(240, 242, 245, 0.85);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+.theme-day .bg-circle {
+    border: 1px solid rgba(94, 92, 230, 0.2);
+}
+
+.theme-day .card::before {
+    background: var(--glass-gradient);
+}
+
+.theme-day .logo h1 {
+    background: var(--primary-gradient);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+/* === TEMA GRIS === */
+body.theme-gray {
+    --background: #222222;
+    --background-alt: #2a2a2a;
+    --container-bg: #333333;
+    --card-bg: #3a3a3a;
+    --card-hover-bg: #444444;
+    
+    /* Gradientes */
+    --primary-gradient-start: #888888;
+    --primary-gradient-mid: #999999;
+    --primary-gradient-end: #aaaaaa;
+    --primary-gradient: linear-gradient(135deg, var(--primary-gradient-start) 0%, var(--primary-gradient-end) 100%);
+    --secondary-gradient: linear-gradient(135deg, #444444 0%, #555555 100%);
+    --glow-gradient: radial-gradient(circle at 50% 0%, rgba(150, 150, 150, 0.15), transparent 60%);
+    --glass-gradient: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.03));
+    
+    /* Botones y Elementos UI */
+    --button-bg: #444444;
+    --button-border: #666666;
+    --button-secondary-bg: #3d3d3d;
+    --button-secondary-border: #555555;
+    --button-hover-shadow: 0 8px 25px -5px rgba(150, 150, 150, 0.3);
+    
+    /* Texto */
+    --text-white: #eeeeee;
+    --text-light: #dddddd;
+    --text-gray: #bbbbbb;
+    --text-accent: #cccccc;
+    --text-muted: #999999;
+        
+    /* Elementos de UI */
+    --progress-bar-bg: #555555;
+    --progress-bar-fill-gradient: linear-gradient(90deg, #888888, #aaaaaa);
+    --input-bg: #444444;
+    --input-border: #555555;
+    --input-focus-border: #777777;
+    --input-focus-shadow: 0 0 0 3px rgba(150, 150, 150, 0.25);
+}
+
+.theme-gray .bg-circle {
+    border: 1px solid rgba(150, 150, 150, 0.1);
+}
+
+
+.theme-gray .home-title,
+.theme-gray .section-title,
+.theme-gray .btn-primary,
+.theme-gray .tag:hover,
+.theme-gray .filter-btn:hover,
+.theme-gray .filter-btn.active,
+.theme-gray .progress-bar-fill,
+.theme-gray .footer-socials a:hover,
+.theme-gray .contact-socials a:hover,
+.theme-gray .home-social-links a:hover {
+}
+
+/* === TEMA LLUVIA === */
+body.theme-rain {
+    --background: #0c1218;
+    --background-alt: #11171f;
+    --container-bg: #141c25;
+    --card-bg: #1e2630;
+    --card-hover-bg: #28323d;
+    
+    /* Gradientes */
+    --primary-gradient-start: #3a8ac7;
+    --primary-gradient-mid: #4a9bd8;
+    --primary-gradient-end: #5aaceb;
+    --primary-gradient: linear-gradient(135deg, var(--primary-gradient-start) 0%, var(--primary-gradient-end) 100%);
+    --secondary-gradient: linear-gradient(135deg, #1d2c3a 0%, #263746 100%);
+    --glow-gradient: radial-gradient(circle at 50% 0%, rgba(77, 146, 200, 0.15), transparent 70%);
+    --glass-gradient: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.03));
+    
+    /* Botones y Elementos UI */
+    --button-bg: #1d2c3a;
+    --button-border: #3a8ac7;
+    --button-secondary-bg: #202e3c;
+    --button-secondary-border: #354658;
+    --button-hover-shadow: 0 8px 25px -5px rgba(77, 146, 200, 0.3);
+    
+    /* Texto */
+    --text-white: #ffffff;
+    --text-light: #d6e6f2;
+    --text-gray: #a4c0d6;
+    --text-accent: #6aafea;
+    --text-muted: #6886a0;
+        
+    /* Elementos de UI */
+    --progress-bar-bg: #1d2c3a;
+    --progress-bar-fill-gradient: linear-gradient(90deg, var(--primary-gradient-start), var(--primary-gradient-end));
+    --input-bg: #1e2630;
+    --input-border: #263746;
+    --input-focus-border: #3a8ac7;
+    --input-focus-shadow: 0 0 0 3px rgba(77, 146, 200, 0.25);
+}
+
+/* Efecto de lluvia (activado solo con tema lluvia) */
+.rain-container {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: var(--z-background-elements);
+    pointer-events: none;
+    opacity: 0;
+    transition: opacity 1s ease;
+    display: none;
+}
+
+.theme-rain .rain-container {
+    display: block;
+    opacity: 1;
+}
+
+.rain-drop {
+    position: absolute;
+    width: 2px;
+    background: linear-gradient(transparent, rgba(77, 146, 200, 0.5));
+    border-radius: 50%;
+    opacity: 0;
+    animation: rain-fall linear infinite;
+}
+
+@keyframes rain-fall {
+    0% {
+        transform: translateY(-100vh);
+        opacity: 0;
+    }
+    10% {
+        opacity: 0.5;
+    }
+    95% {
+        opacity: 0.4;
+    }
+    100% {
+        transform: translateY(100vh);
+        opacity: 0;
+    }
+}
+
+/* ===== ANIMACIONES PARA ICONOS Y MENÚ ===== */
+
+/* Animación para iconos en el menú */
+.main-nav .nav-link i {
+    margin-right: 8px;
+    transition: transform 0.3s cubic-bezier(0.34, 1.56, 0.64, 1);
+}
+
+.main-nav .nav-link:hover i {
+    transform: translateY(-3px) scale(1.2);
+}
+
+/* Animación para iconos de habilidades */
+.skill-icon-container {
+    transition: transform 0.5s cubic-bezier(0.34, 1.56, 0.64, 1), box-shadow 0.5s ease;
+}
+
+.skill-card:hover .skill-icon-container {
+    transform: translateY(-10px) scale(1.1);
+    box-shadow: 0 10px 20px -5px rgba(var(--primary-gradient-start-rgb), 0.3);
+}
+
+/* Animación para iconos sociales */
+.home-social-links a, 
+.contact-socials a, 
+.footer-socials a {
+    overflow: hidden;
+}
+
+.home-social-links a i, 
+.contact-socials a i, 
+.footer-socials a i {
+    transition: transform 0.4s cubic-bezier(0.34, 1.56, 0.64, 1);
+}
+
+.home-social-links a:hover i, 
+.contact-socials a:hover i, 
+.footer-socials a:hover i {
+    transform: scale(1.3);
+}
+
+/* Animación para iconos de timeline */
+.timeline-icon {
+    transition: transform 0.5s cubic-bezier(0.34, 1.56, 0.64, 1), box-shadow 0.5s ease;
+}
+
+.timeline-content:hover + .timeline-icon,
+.timeline-content:hover ~ .timeline-icon {
+    transform: translateX(-50%) scale(1.2);
+    box-shadow: 0 5px 15px rgba(var(--primary-gradient-start-rgb), 0.3);
+}
+
+/* Selector de tema */
+.theme-switcher {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    background: var(--card-bg);
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    z-index: var(--z-above);
+    transition: var(--transition-bounce);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.theme-switcher:hover {
+    transform: translateY(-5px) scale(1.1);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3);
+}
+
+.theme-switcher i {
+    font-size: 1.5rem;
+    color: var(--text-accent);
+    transition: transform 0.4s cubic-bezier(0.34, 1.56, 0.64, 1);
+}
+
+.theme-switcher:hover i {
+    transform: rotate(180deg);
+}
+
+.theme-options {
+    position: fixed;
+    bottom: 90px;
+    right: 30px;
+    background: var(--card-bg);
+    border-radius: var(--border-radius-md);
+    padding: var(--spacing-md);
+    box-shadow: var(--shadow-lg);
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-sm);
+    z-index: var(--z-above);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    transform: translateY(20px);
+    opacity: 0;
+    visibility: hidden;
+    transition: transform 0.3s ease, opacity 0.3s ease, visibility 0.3s ease;
+}
+
+.theme-options.active {
+    transform: translateY(0);
+    opacity: 1;
+    visibility: visible;
+}
+
+.theme-option {
+    display: flex;
+    align-items: center;
+    gap: var(--spacing-sm);
+    padding: var(--spacing-sm) var(--spacing-md);
+    border-radius: var(--border-radius-sm);
+    cursor: pointer;
+    transition: var(--transition-smooth);
+}
+
+.theme-option:hover {
+    background: var(--card-hover-bg);
+}
+
+.theme-option.active {
+    background: var(--primary-gradient);
+}
+
+.theme-option-icon {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.theme-option-text {
+    font-weight: 500;
+    color: var(--text-light);
+}
+
+.theme-option.active .theme-option-text {
+    color: var(--text-white);
+}
+
+/* Colores para los iconos de temas */
+.theme-icon-night {
+    background: #080b14;
+    border: 1px solid #5352e4;
+}
+
+.theme-icon-day {
+    background: #f0f2f5;
+    border: 1px solid #5550e8;
+}
+
+.theme-icon-gray {
+    background: #222222;
+    border: 1px solid #888888;
+}
+
+.theme-icon-rain {
+    background: #0c1218;
+    border: 1px solid #3a8ac7;
+}
+
+/* Animación del menú mobile */
+@keyframes menuSlideIn {
+    from {
+        transform: translateX(-100%);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+.main-nav.active .nav-links {
+    animation: menuSlideIn 0.4s forwards;
+}
+
+/* Variables RGB para sombras */
+:root {
+    --primary-gradient-start-rgb: 83, 82, 228;
+}
